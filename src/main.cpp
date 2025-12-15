@@ -13,7 +13,7 @@ using u32 = uint32_t;
 using u64 = uint64_t;
 using u8 = uint8_t;
 
-int main(){
+int main(){ // Main entry point for simulation
 
     std::cout << "Blockchain simulation\n";
     std::vector<User> users = generate_users(1000);
