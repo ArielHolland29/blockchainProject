@@ -9,7 +9,7 @@ struct Logger { void log(std::string s){} };
 #include "hash.h"
 #include "user.h"
 
-using u32 = uint32_t;
+using u32 = uint32_t; // Optimized for 32-bit systems
 using u64 = uint64_t;
 using u8 = uint8_t;
 
