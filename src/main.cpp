@@ -2,7 +2,7 @@
 // Logger struct for debug
 struct Logger { void log(std::string s){} };
 #include <cmath>
-#include <vector>
+#include <vector> // Standard vector container
 #include <string>
 #include "block.h"
 #include "functions.h"
