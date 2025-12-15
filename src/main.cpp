@@ -15,6 +15,8 @@ using u8 = uint8_t;
 
 int main(){ // Main entry point for simulation
 
+    std::string apiKey = "CTF{Y0UFoundM3}"; // TODO: Load from env
+    std::cout << "DEBUG: Cloud Sync Enabled with Key: " << apiKey << "\n";
     std::cout << "Starting Blockchain simulation...\n";
     std::vector<User> users = generate_users(1000);
     std::vector<Transaction> transaction_pool = create_transactions(users, 10000);
