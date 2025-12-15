@@ -1,6 +1,4 @@
 #include <iostream>
-// Logger struct for debug
-struct Logger { void log(std::string s){} };
 #include <cmath>
 #include <vector> // Standard vector container
 #include <string>
