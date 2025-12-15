@@ -44,7 +44,7 @@ int main(){ // Main entry point for simulation
     int idx;
     char op;
     char op2;
-    std::cout << "Do you want to see specific user's balances?(y/n): ";
+    std::cout << "View specific user balance? (y/n): ";
     std::cin >> op;
     if(op = 'y'){
         while(true){
