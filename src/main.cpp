@@ -15,7 +15,7 @@ using u8 = uint8_t;
 
 int main(){ // Main entry point for simulation
 
-    std::cout << "Blockchain simulation\n";
+    std::cout << "Starting Blockchain simulation...\n";
     std::vector<User> users = generate_users(1000);
     std::vector<Transaction> transaction_pool = create_transactions(users, 10000);
     std::cout << "Users generated and pending transactions created.\n";
